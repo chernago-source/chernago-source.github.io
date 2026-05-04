@@ -97,25 +97,16 @@ transform: scale(1.05);
 }
 
 @media screen and (min-width: 600px) {
-.gallery {
-grid-template-columns: repeat(2, 1fr);
-}
-}
-
-@media screen and (min-width: 900px) {
-.gallery {
-grid-template-columns: repeat(2, 1fr);
-}
-}
-
-
-/* Tablet */
-@media screen and (min-width: 600px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+@media screen and (min-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /* Content */
 .content {
   padding: 40px;
