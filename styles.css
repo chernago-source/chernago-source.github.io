@@ -37,9 +37,15 @@ nav ul {
   list-style: none;
 }
 
+nav {
+  background: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
 nav li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 5px 10px;
 }
 
 nav a {
