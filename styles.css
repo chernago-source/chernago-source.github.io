@@ -61,25 +61,41 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* Mobile */
 .gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 20px;
-  max-width: 1000px;
-  margin: auto; 
+display: grid;
+grid-template-columns: 1fr;
+gap: 20px;
+padding: 20px;
+max-width: 900px;
+margin: 40px auto;
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
+width: 100%;
+max-width: 400px;
+height: auto;
+border-radius: 8px;
+margin: 0 auto;
+display: block;
+transition: transform 0.3s ease;
 }
 
-  .gallery img:hover {
-    transform: scale(1.05);
+.gallery img:hover {
+transform: scale(1.05);
 }
+
+@media screen and (min-width: 600px) {
+.gallery {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (min-width: 900px) {
+.gallery {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
 
 /* Tablet */
 @media screen and (min-width: 600px) {
