@@ -25,7 +25,13 @@ header {
   padding: 20px;
   text-align: center;
 }
-
+header img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
 /* Navigation */
 nav ul {
   list-style: none;
