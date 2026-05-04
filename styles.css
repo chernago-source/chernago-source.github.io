@@ -131,10 +131,10 @@ button {
   color: white;
   border: none;
 }
-.#wrapper {
-max-width: 1100px;
-margin: auto;
-background: white;
+#wrapper {
+  max-width: 1100px;
+  margin: auto;
+  background: white;
 }
 
 h1, h2 {
