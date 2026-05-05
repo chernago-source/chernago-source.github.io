@@ -196,7 +196,14 @@ main {
   border: 1px solid #e5e7eb;
 }
 
-.site-footer-credits, #sidebar {
+.site-footer-credits,
+.github-footer,
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright,
+#sidebar,
+.sidebar,
+.sidebar-sticky {
   display: none !important;
 }
 
