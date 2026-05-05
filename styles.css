@@ -214,3 +214,19 @@ footer {
   background: #111827;
   color: #e5e7eb;
 }
+a.button,
+a.button:link,
+a.button:visited {
+  background-color: #e5e7eb !important;
+  color: #111827 !important;
+  border: 2px solid #111827 !important; /* adds contrast on light pages */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12) !important;
+}
+
+a.button:hover,
+a.button:focus {
+  background-color: #d1d5db !important;
+  color: #111827 !important;
+  transform: translateY(-1px);
+  outline: none;
+}
