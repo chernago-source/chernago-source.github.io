@@ -3,8 +3,7 @@ Author: Skylar Chernago
 File Name: styles.css file
 */
 
-/* CSS Reset */ 
-
+/* CSS Reset */
 body, header, nav, main, footer, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
@@ -35,6 +34,7 @@ header img {
   display: block;
   margin: 0 auto 10px auto;
 }
+
 /* Navigation */
 nav ul {
   list-style: none;
@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-  color:#ffd700;
+  color: #ffd700;
 }
 
 /* Hero Section */
@@ -70,6 +70,12 @@ nav a:hover {
   padding: 60px;
 }
 
+.hero img {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
 .button {
   display: inline-block;
   background: #333;
@@ -79,6 +85,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+.button:hover {
+  background: #555;
+}
+
+/* Gallery */
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -88,15 +99,29 @@ nav a:hover {
   margin: 40px auto;
 }
 
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
 @media screen and (min-width: 600px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-}
+
 /* Content */
 .content {
-  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
   max-width: 800px;
   margin: auto;
 }
@@ -118,6 +143,8 @@ button {
   color: white;
   border: none;
 }
+
+/* Wrapper (optional, only affects pages using #wrapper) */
 #wrapper {
   max-width: 1100px;
   margin: auto;
@@ -125,36 +152,23 @@ button {
 }
 
 h1, h2 {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 section {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.button:hover {
-background: #555;
-}
 main {
   padding: 20px;
 }
 
-.hero img {
-  max-width: 350px;
-  margin-bottom: 20px;
-}
-
-.content {
-  background: white;
-  border-radius: 10px;
-  padding: 30px;
-}
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
   background: #333;
-  color: White;
+  color: white;
   margin-top: 20px;
 }
 
