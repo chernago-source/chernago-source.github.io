@@ -14,14 +14,14 @@ title: Gallery
      <li><a class="button" href="{{ '/contact.html' | relative_url }}">Contact</a></li>
     </ul>
   </div>
-  
-  <img src="{{ '/IMG_4013.jpeg' | relative_url }}" alt="Waipi'o Valley">
+
+<img class="gallery-img" src="{{ '/IMG_4013.jpeg' | relative_url }}" alt="Waipi'o Valley">
   <p>Photo taken from the Top of Waipi'o Valley</p>
   
-  <img src="{{ '/IMG_3960.jpeg' | relative_url }}" alt="Malama 'Aina Sign and Horse">
+<img class="gallery-img" src="{{ '/IMG_3960.jpeg' | relative_url }}" alt="Malama 'Aina Sign and Horse">
   <p>"Malama 'Aina" sign next to a wild horse in Waipi'o Valley</p>
   
-  <img src="{{ '/IMG_3905.jpeg' | relative_url }}" alt="Mother and Baby Horse">
+ <img class="gallery-img" src="{{ '/IMG_3905.jpeg' | relative_url }}" alt="Mother and Baby Horse">
   <p>Mom and Baby Horse walking through Waipi'o Valley</p>
   
   <img src="{{ '/IMG_9972.jpeg' | relative_url }}" alt="Flowers and Moss">
@@ -83,5 +83,11 @@ title: Gallery
   <source src="{{ 'Sheep.mp4' | relative_url }}" type="video/mp4">
 </video>
 <p>Pet Sheep Video</p>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+  <button id="lightboxClose" class="lightbox-close" aria-label="Close">Close</button>
+  <img id="lightboxImg" alt="">
+  <p id="lightboxCaption"></p>
+</div>
   
 </section>
