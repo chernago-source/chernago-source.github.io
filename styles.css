@@ -92,11 +92,17 @@ nav a:hover {
 /* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr;     /* phones */
   gap: 20px;
   padding: 20px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 40px auto;
+}
+
+@media screen and (min-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);  /* 2 per row */
+  }
 }
 
 .gallery img {
@@ -104,19 +110,7 @@ nav a:hover {
   height: auto;
   border-radius: 8px;
   display: block;
-  transition: transform 0.3s ease;
 }
-
-.gallery img:hover {
-  transform: scale(1.03);
-}
-
-@media screen and (min-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 /* Content */
 .content {
   background: white;
