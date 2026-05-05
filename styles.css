@@ -115,8 +115,8 @@ main {
 
 .button {
   display: inline-block;
-  background: #e5e7eb;   /* light gray */
-  color: #111827;        /* near-black text */
+  background: white;   
+  color: black;        
   padding: 12px 18px;
   border-radius: 12px;
   text-decoration: none;
@@ -127,13 +127,13 @@ main {
 }
 
 .button:hover {
-  background: #d1d5db;   /* slightly darker on hover */
+  background: #d1d5db;   
   transform: translateY(-1px);
 }
 
 .button-secondary {
-  background: #f3f4f6;   /* even lighter */
-  color: #111827;
+  background: white;   
+  color: black;
 }
 
 /* Content blocks */
