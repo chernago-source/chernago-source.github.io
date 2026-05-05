@@ -59,7 +59,7 @@ nav ul {
 }
 
 nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: 700;
   padding: 8px 12px;
@@ -115,8 +115,8 @@ main {
 
 .button {
   display: inline-block;
-  background: var(--brand);
-  color: black;
+  background: #e5e7eb;   /* light gray */
+  color: #111827;        /* near-black text */
   padding: 12px 18px;
   border-radius: 12px;
   text-decoration: none;
@@ -127,13 +127,13 @@ main {
 }
 
 .button:hover {
-  background: var(--brand-2);
+  background: #d1d5db;   /* slightly darker on hover */
   transform: translateY(-1px);
 }
 
 .button-secondary {
-  background: #334155;
-  color: black;
+  background: #f3f4f6;   /* even lighter */
+  color: #111827;
 }
 
 /* Content blocks */
