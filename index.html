@@ -4,13 +4,27 @@ title: Home
 ---
 
 <section class="hero">
-  <img src="{{ '/IMG_3905.jpeg' | relative_url }}" alt="Featured photo">
+  <img src="{{ '/IMG_3905.jpeg' | relative_url }}" alt="Nature Photo">
 
   <h2>Loving Healing Photos</h2>
-  <p>All Photos are Dedicated to a beautiful and loving mother, Kara Stone.</p>
+  <p class="lead">
+    A calming photo collection inspired by nature, created in honor of a beautiful and loving mother, Kara Stone.
+  </p>
+  <p>Nature has always been one of the most peaceful and grounding sources</p>
 
-  <a class="button" href="{{ '/gallery.html' | relative_url }}">Gallery</a>
-  <a class="button" href="{{ '/external.html' | relative_url }}">Information</a>
-  <a class="button" href="{{ '/contact.html' | relative_url }}">Contact</a>
-  <a class="button" href="{{ '/about.html' | relative_url }}">About</a>
+  <div class="button-list">
+    <a class="button" href="{{ '/gallery.html' | relative_url }}">View the Gallery</a>
+    <a class="button button-secondary" href="{{ '/about.html' | relative_url }}">Read the Story</a>
+    <a class="button button-secondary" href="{{ '/external.html' | relative_url }}">Support and Resources</a>
+    <a class="button button-secondary" href="{{ '/contact.html' | relative_url }}">Contact</a>
+  </div>
+</section>
+
+<section class="content">
+  <h2>What you’ll find here</h2>
+  <ul class="feature-list">
+    <li><strong>Nature photography</strong> from Hawaii and beyond</li>
+    <li><strong>A peaceful browsing experience</strong> with a clean, calming layout</li>
+    <li><strong>Helpful links</strong> to cancer information and ways to support research</li>
+  </ul>
 </section>
