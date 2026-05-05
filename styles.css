@@ -196,6 +196,10 @@ main {
   border: 1px solid #e5e7eb;
 }
 
+.site-footer-credits, #sidebar {
+  display: none !important;
+}
+
 /* Footer */
 footer {
   text-align: center;
