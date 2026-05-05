@@ -81,6 +81,7 @@ main {
 /* Hero */
 .hero {
   background: black;
+  color: white;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 28px 18px;
@@ -94,13 +95,14 @@ main {
   display: block;
 }
 
-.hero h2 {
+.hero h2, .hero p {
+  color: white;
   font-size: clamp(1.35rem, 2vw, 1.8rem);
   margin-bottom: 10px;
 }
 
 .lead {
-  color: var(--muted);
+  color: #e5e7eb;
   max-width: 70ch;
   margin: 0 auto;
 }
@@ -111,6 +113,15 @@ main {
   display: grid;
   gap: 12px;
   justify-content: center;
+}
+.button-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button-list li {
+  margin: 0;
 }
 
 .button {
@@ -123,6 +134,8 @@ main {
   font-weight: 800;
   width: 240px;
   text-align: center;
+  border: 2px soild #111827;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
   transition: transform 0.12s ease, background 0.12s ease;
 }
 
