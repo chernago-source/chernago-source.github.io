@@ -80,7 +80,7 @@ main {
 
 /* Hero */
 .hero {
-  background: var(--surface);
+  background: black;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 28px 18px;
