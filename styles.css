@@ -28,6 +28,10 @@ body {
   line-height: 1.65;
 }
 
+/* Links */
+a { color: var(--brand); }
+a:hover { color: var(--brand-2); }
+
 /* Header */
 header {
   background: linear-gradient(180deg, #111827, #1f2937);
@@ -126,27 +130,27 @@ main {
 
 .button {
   display: inline-block;
-  background: linear-gradient(180deg, #111827, #1f2937);  
-  color: black;        
+  background: linear-gradient(180deg, #111827, #1f2937);
+  color: #ffffff;
   padding: 12px 18px;
   border-radius: 12px;
   text-decoration: none;
   font-weight: 800;
   width: 240px;
   text-align: center;
-  border: 2px soild #111827;
+  border: 2px soild #111827; 
   box-shadow: 0 10px 22px rgba(0,0,0,0.12);
   transition: transform 0.12s ease, background 0.12s ease;
 }
 
 .button:hover {
-  background: linear-gradient(180deg, #111827, #1f2937);   
+  background: linear-gradient(180deg, #111827, #1f2937);
   transform: translateY(-1px);
 }
 
 .button-secondary {
-  background: linear-gradient(180deg, #111827, #1f2937);   
-  color: black;
+  background: linear-gradient(180deg, #111827, #1f2937);
+  color: #ffffff;
 }
 
 /* Content blocks */
@@ -156,10 +160,12 @@ main {
   box-shadow: var(--shadow);
   padding: 22px 18px;
   margin: 18px 0;
+  color: #ffffff;
 }
 
 .content h2 {
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .feature-list {
@@ -169,7 +175,7 @@ main {
 
 .small-note {
   margin-top: 14px;
-  color: var(--muted);
+  color: #cbd5e1;
   font-size: 0.95rem;
 }
 
@@ -213,9 +219,11 @@ main {
 footer {
   text-align: center;
   padding: 22px 16px;
-  background:linear-gradient(180deg, #111827, #1f2937);
+  background: linear-gradient(180deg, #111827, #1f2937);
   color: #e5e7eb;
 }
+
+/* Hero buttons */
 .hero .button-list a.button,
 .hero a.button {
   display: block !important;
@@ -224,9 +232,9 @@ footer {
   padding: 12px 18px;
 
   background: linear-gradient(180deg, #111827, #1f2937);
-  color: #111827 !important;
+  color: #ffffff !important; 
 
-  border: 2px solid #111827 !important;   /* key: visible on white */
+  border: 2px solid #111827 !important;
   border-radius: 12px;
   text-decoration: none !important;
 
