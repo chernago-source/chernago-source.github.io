@@ -4,6 +4,10 @@ File Name: styles.css file
 */
 
 /* CSS Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+/* Source - https://fonts.google.com/specimen/Fuzzy+Bubbles?query=bubble&preview.script=Latn */
+
 * { box-sizing: border-box; }
 body, h1, h2, p, ul { margin: 0; padding: 0; }
 
@@ -22,7 +26,7 @@ body, h1, h2, p, ul { margin: 0; padding: 0; }
 
 /* Body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
   background: var(--bg);
   color: var(--text);
   line-height: 1.65;
